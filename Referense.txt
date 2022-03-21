@@ -10,3 +10,10 @@ https://qiita.com/A-Kira/items/ed12de84dda0230a4eae
 
 なんか、起動してもhttp://0.0.0.0:8080につながんない
 localhost:8080に繋げたら動いた。何でだぁ？
+
+Flaskとの共存など
+https://qiita.com/y-tsutsu/items/67f71fc8430a199a3efd
+
+backendとのbuildによっての変更点
+distというファイルが生成されたにすぎます。
+もっと情報が欲しければ消して修正、というのも可能
