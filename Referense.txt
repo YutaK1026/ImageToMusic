@@ -8,3 +8,5 @@
 dockerについて
 https://qiita.com/A-Kira/items/ed12de84dda0230a4eae
 
+なんか、起動してもhttp://0.0.0.0:8080につながんない
+localhost:8080に繋げたら動いた。何でだぁ？
