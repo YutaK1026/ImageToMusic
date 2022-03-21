@@ -1,14 +1,23 @@
-version: '3.8'
-
+version: '3'
 services:
-  web:
-    container_name: web
-    build: ./docker/web
-    ports:
-      - 8080:8080
-    privileged: true
-    volumes:
-      - ./server:/app:cached
+  flask:
+    build: 
+      context: .
+      dockerfile: Dockerfile_python
+    container_name: flask_container
     tty: true
-    stdin_open: true
-    command: /bin/sh
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - "5000:5000"
+  vue:
+    build:
+      context: .
+      dockerfile: Dockerfile_node
+    image: vue_img
+    container_name: vue_container
+    tty: true
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - "8080:8080"

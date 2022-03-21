@@ -17,3 +17,7 @@ https://qiita.com/y-tsutsu/items/67f71fc8430a199a3efd
 backendとのbuildによっての変更点
 distというファイルが生成されたにすぎます。
 もっと情報が欲しければ消して修正、というのも可能
+
+行きついた先のサイトはここでした
+https://qiita.com/kasayu/items/43734e570dc458a5be15
+
